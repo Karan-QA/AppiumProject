@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [trust-wallet]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="create-wallet-1(failed)">
+    <classes>
+      <class name="tests.java.com.karora.test.trustwallet.CreateBasicWalletTest">
+        <methods>
+          <include name="getStarted"/>
+          <include name="teardown"/>
+          <include name="backUpSecretPhrase"/>
+          <include name="assertWalletCreated"/>
+          <include name="startUsingTrustwallet"/>
+          <include name="setup"/>
+          <include name="selectCreateNewWallet"/>
+          <include name="denyBiometric"/>
+          <include name="createPasscode"/>
+          <include name="reEnterPasscode"/>
+        </methods>
+      </class> <!-- tests.java.com.karora.test.trustwallet.CreateBasicWalletTest -->
+    </classes>
+  </test> <!-- create-wallet-1(failed) -->
+</suite> <!-- Failed suite [trust-wallet] -->

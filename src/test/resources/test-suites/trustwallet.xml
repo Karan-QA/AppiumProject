@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="trust-wallet">
+	<test name="create-wallet-1">
+		<!-- <parameter name="testDataPath" value="test-data/trust-wallet/create-wallet-1.json"/> -->
+		<classes>
+			<class
+				name="tests.java.com.karora.test.trustwallet.CreateBasicWalletTest" />
+		</classes>
+	</test>
+
+	<test name="create-wallet-with-Google">
+		<classes>
+			<class
+				name="tests.java.com.karora.test.trustwallet.CreateWalletGoogleDriveTest" />
+		</classes>
+	</test>
+
+</suite>

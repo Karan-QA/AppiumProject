@@ -1,6 +1,6 @@
 # Mobile App Test Automation with Appium and TestNG
 
-This project demonstrates automated testing of a Android mobile application using Appium and TestNG.
+This project demonstrates automated testing of a Android mobile application using Appium and TestNG for TrustWallet Application sample Test Cases.
 
 ## Prerequisites
 

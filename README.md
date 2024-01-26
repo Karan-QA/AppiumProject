@@ -12,7 +12,7 @@ This project demonstrates automated testing of a Android mobile application usin
 
 3. **Maven**: Install Maven to manage project dependencies and build the project.
 
-4. ## Getting Started
+## Getting Started
 
 1. **Clone the Repository:**
    ```bash
